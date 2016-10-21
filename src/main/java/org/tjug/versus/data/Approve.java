@@ -1,4 +1,4 @@
-package org.tjug.versus.functionaljava.data;
+package org.tjug.versus.data;
 
 import java.util.Date;
 

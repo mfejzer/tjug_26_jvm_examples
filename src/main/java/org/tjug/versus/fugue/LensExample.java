@@ -1,6 +1,6 @@
-package org.tjug.versus.functionaljava;
+package org.tjug.versus.fugue;
 
-import fj.data.optic.Lens;
+import io.atlassian.fugue.optic.Lens;
 import org.tjug.versus.data.Approve;
 import org.tjug.versus.data.Review;
 import org.tjug.versus.data.ReviewStatus;
@@ -54,7 +54,7 @@ public class LensExample {
                 new ArrayList<>()
                 );
 
-        Review newReview = reviewApproveValueLens.set(2).f(review);
+        Review newReview = reviewApproveValueLens.set(2).apply(review);
         System.out.println(review.getApproveHistory().get(0).getApproveValue());
         System.out.println(newReview.getApproveHistory().get(0).getApproveValue());
 

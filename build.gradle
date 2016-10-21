@@ -17,6 +17,7 @@ dependencies {
     compile 'com.google.guava:guava:19.0'
 
     compile 'io.atlassian.fugue:fugue:4.3.0'
+    compile 'io.atlassian.fugue:fugue-optics:4.3.0'
 
     compile "org.functionaljava:functionaljava:4.6"
     compile "org.functionaljava:functionaljava-java8:4.6"
