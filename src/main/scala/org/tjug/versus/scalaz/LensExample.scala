@@ -8,7 +8,7 @@ import org.tjug.versus.data.{ReviewStatus, Review, Approve}
 
 import scalaz.Lens
 
-class LensExample {
+object LensExample {
 
   def main(args: Array[String]) {
 
